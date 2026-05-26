@@ -28,7 +28,7 @@ services:
   app:
     build:
       context: ..  # El contexto es el directorio raíz del proyecto (ecommerce_Dockerizado/)
-      dockerfile: Docker/Dockerfile # El Dockerfile está en docker/Dockerfile dentro de ese contexto
+      dockerfile: Docker/DockerFile # El Dockerfile está en docker/Dockerfile dentro de ese contexto
     container_name: product_app
     depends_on:
       db:
