@@ -17,7 +17,7 @@ pipeline {
         DB_NAME = 'ecommerce_lp2_prod'
         DB_USER = 'root'
         DB_PASSWORD = 'admin123'
-        REPO_URL = ''
+        REPO_URL = 'https://github.com/FENIXTTOBAN/PipiliniBDRobusta.git'
     }
 
     stages {
